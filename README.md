@@ -11,7 +11,7 @@ const { waifu,
         bunny,
         genshin,
         nahida,
-        osakana } = require("./lib/config_function");
+        osakana } = require("zeev.io");
 
 module.exports.waifu = waifu;
 module.exports.ayaka = ayaka;
