@@ -10,12 +10,14 @@ const { waifu,
         bocchi,
         bunny,
         genshin,
-        osakana } = require("zeev.io");
+        nahida,
+        osakana } = require("./lib/config_function");
 
-waifu().then(console.log);
-ayaka().then(console.log);
-bocchi().then(console.log);
-bunny().then(console.log);
-genshin().then(console.log);
-osakana().then(console.log);
+module.exports.waifu = waifu;
+module.exports.ayaka = ayaka;
+module.exports.bocchi = bocchi;
+module.exports.bunny = bunny;
+module.exports.genshin = genshin;
+module.exports.nahida = nahida;
+module.exports.osakana = osakana;
 ```
