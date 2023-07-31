@@ -1,6 +1,6 @@
 {
   "name": "zeev.io",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Api dari https://zeevalya.cyclic.app",
   "main": "index.js",
   "directories": {
