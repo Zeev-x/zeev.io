@@ -1,0 +1,29 @@
+{
+  "name": "zeev.io",
+  "version": "1.0.1",
+  "description": "Api dari https://zeevalya.cyclic.app",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeev-x/zeev.io.git"
+  },
+  "keywords": [
+    "api",
+    "zeev"
+  ],
+  "author": "Zeev-x",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zeev-x/zeev.io/issues"
+  },
+  "homepage": "https://github.com/Zeev-x/zeev.io#readme",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
